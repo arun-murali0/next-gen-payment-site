@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import { NavLinks } from '../constants';
 import { logo, menu, close } from '../assets';
+import styles from '../style';
 
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className='w-full py-6 flex justify-between items-center'>
+    <nav className={ `${styles.paddingX} w-full py-6 flex justify-between items-center`}>
       <img src={logo} className='w-[124px] h-[32px]' alt='Logo' />
-      <ul className=' justify-end items-center list-none sm:flex hidden flex-1 navbar'>
+      <ul className=' justify-end items-center list-none sm:flex hidden flex-1 '>
         {NavLinks.map((nav, index) => (
           <li
             key={nav.id}
