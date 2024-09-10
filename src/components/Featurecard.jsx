@@ -5,7 +5,7 @@ export default function Featurecard({ title, icon, index, content }) {
   return (
     <section
       id='feature_card'
-      className={`flex flex-row p-6 rounded-[20px] feature-card ${
+      className={`flex flex-row p-6 rounded-[20px] feature-card ${styles.paddingX} ${
         index != features.length - 1 ? 'mb-8' : 'mb-0'
       }`}
     >
