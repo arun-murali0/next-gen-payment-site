@@ -10,7 +10,7 @@ export default function Hero() {
       <div
         className={`flex-1 ${style.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        <div className='flex items-center flex-row px-4 py-2 bg-discount-gradient rounded-[10px] mb-5'>
+        <div className='flex items-center flex-row px-4 py-2 bg-discount-gradient rounded-[10px] mb-10'>
           <img src={discount} alt='discount' className='h-[32px] w-[32px]' />
           <p className={`${style.paragraph} ml-2`}>
             <span className='text-white my-1'>20%</span> Discount For{' '}
