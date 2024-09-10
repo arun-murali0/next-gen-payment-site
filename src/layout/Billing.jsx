@@ -9,7 +9,7 @@ import styles, { layout } from '../style';
 
 export default function Billing() {
   return (
-    <section id='product' className={`${layout.sectionReverse} ${styles.paddingX}`}>
+    <section id='Products' className={`${layout.sectionReverse} ${styles.paddingX}`}>
       <div className={layout.sectionImgReverse}>
         <img
           src={bill}

@@ -12,7 +12,7 @@ import FeatureCard from '../components/Featurecard';
 
 export default function Business() {
   return (
-    <section id='features' className={`${layout.section} ${Styles.paddingX}`}>
+    <section id='Features' className={`${layout.section} ${Styles.paddingX}`}>
       <div className={layout.sectionInfo}>
         <h2 className={Styles.heading2}>
           You do the business, <br className='sm:block hidden' /> we’ll handle
