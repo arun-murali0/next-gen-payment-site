@@ -1,3 +1,12 @@
+/**
+ * The Cta function returns a section element with a heading, paragraph, and a Button component styled
+ * using CSS modules.
+ * @returns The `Cta` component is being returned, which consists of a section element with specific
+ * styling classes applied using the `styles` object imported from '../style'. Within the section,
+ * there are two div elements - one containing a heading and a paragraph, and the other containing a
+ * `Button` component with the text "Get Started". The component is designed for a call-to-action
+ * section on a webpage.
+ */
 import styles from '../style';
 import Button from '../components/Button';
 

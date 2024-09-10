@@ -1,3 +1,10 @@
+/**
+ * The `Business` function renders a section with information about credit cards and features a list of
+ * `FeatureCard` components based on the `features` data.
+ * @returns The `Business` component is being returned. It consists of a section with the id 'features'
+ * containing a heading, paragraph, and a Button component for getting started. It also includes a list
+ * of FeatureCard components generated based on the features data from the constants file.
+ */
 import { features } from '../constants';
 import Styles, { layout } from '../style';
 import Button from '../components/Button';

@@ -1,8 +1,8 @@
+/* This code snippet is a React component named `Footer` that represents the footer section of a
+website. Here's a breakdown of what it does: */
 import { logo } from "../assets";
 import styles from "../style";
 import { footerLinks,socialMedia } from "../constants";
-
-
 
 export default function Footer() {
   return (

@@ -1,3 +1,7 @@
+/**
+ * The FeedbackCard component in JavaScript React displays feedback content along with the name, title,
+ * and image of the person providing the feedback.
+ */
 import { quotes } from '../assets';
 
 const FeedbackCard = ({ content, name, title, img }) => (

@@ -1,3 +1,11 @@
+/**
+ * The Featurecard function in JavaScript React renders a styled card component with a title, icon, and
+ * content.
+ * @returns The `Featurecard` component is being returned. It is a functional component that takes
+ * props `title`, `icon`, `index`, and `content`. Inside the component, it renders a section element
+ * with a specific id and classNames based on the props and styles. It contains a div for the icon,
+ * displaying an image, and another div for the title and content of the feature card.
+ */
 import styles from '../style';
 import { features } from '../constants';
 

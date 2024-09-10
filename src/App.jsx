@@ -1,3 +1,7 @@
+/**
+ * The App component renders a webpage layout with sections including Navbar, Hero, Stats, Business,
+ * Billing, CardDeal, Testimonials, Clients, Cta, and Footer.
+ */
 import React from 'react';
 import {
   Hero,

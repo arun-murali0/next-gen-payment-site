@@ -7,7 +7,9 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className={ `${styles.paddingX} w-full py-6 flex justify-between items-center`}>
+    <nav
+      className={`${styles.paddingX} w-full py-6 flex justify-between items-center`}
+    >
       <img src={logo} className='w-[124px] h-[32px]' alt='Logo' />
       <ul className=' justify-end items-center list-none sm:flex hidden flex-1 '>
         {NavLinks.map((nav, index) => (

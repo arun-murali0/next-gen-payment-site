@@ -1,3 +1,5 @@
+/* The code snippet you provided is a React component named `Testimonials`. Here's a breakdown of what
+it does: */
 import styles from '../style';
 import FeedbackCard from '../components/FeedbackCard';
 import { feedback } from '../constants';

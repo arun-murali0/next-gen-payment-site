@@ -1,3 +1,12 @@
+/**
+ * The Hero component renders a section with discount information, a heading, payment method details,
+ * and an image of a robot.
+ * @returns The code snippet is a React functional component named `Hero` that returns a section
+ * element containing various elements such as images, text, and components styled using Tailwind CSS
+ * classes. The section has two main div elements - one containing discount information and text
+ * content, and the other containing an image of a robot with gradient overlays. The component also
+ * includes a heading, paragraph, and a call-to-action button component
+ */
 import style from '../style';
 import { discount, robot } from '../assets';
 import { GetStarted } from './index';

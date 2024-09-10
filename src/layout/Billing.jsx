@@ -1,3 +1,9 @@
+/**
+ * The Billing component renders a section for controlling billing and invoicing with images for Apple
+ * and Google Play stores.
+ * @returns The `Billing` component is being returned. It contains a section for controlling billing
+ * and invoicing with images for Apple and Google Play store icons.
+ */
 import { apple, google, bill } from '../assets';
 import styles, { layout } from '../style';
 

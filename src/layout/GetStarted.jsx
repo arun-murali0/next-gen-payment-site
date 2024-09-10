@@ -1,3 +1,11 @@
+/**
+ * The GetStarted function returns a styled React component for a "Get Started" button with an arrow
+ * icon.
+ * @returns The code snippet is a React functional component named GetStarted. It returns a JSX
+ * structure that consists of nested div elements with specific classNames for styling. The component
+ * renders a rounded button-like element with text "Get Started" and an arrow icon. The styles are
+ * applied using CSS modules and inline styles.
+ */
 import style from '../style';
 import { arrowUp } from '../assets';
 

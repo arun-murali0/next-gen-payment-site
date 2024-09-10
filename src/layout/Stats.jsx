@@ -1,3 +1,5 @@
+/* This code snippet is a React component named `Stats` that renders a section containing statistics.
+Here's a breakdown of what it does: */
 import { stats } from '../constants';
 import Style from '../style';
 
